@@ -21,21 +21,29 @@
             </div>
         </section>
         <section class="sec2">
-            <img src="img/mobile/eco.png" alt="ECO">
-            <h2 class="orange">100% Czystej energii</h2>
-            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <img src="img/mobile/bank.png" style="margin-top: 32px;" alt="bank">
-            <h2 class="orange">Zaoszczędź swoje pieniądze. </h2>
-            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-        </section>
+            <div class="object">
+                <img src="img/mobile/eco.png" alt="ECO">
+                <div class="tekst">
+                    <h2 class="orange">100% Czystej energii</h2>
+                    <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>    
+                </div>
+            </div>
+            <div class="object-reverse">
+                <img src="img/mobile/bank.png" style="margin-top: 32px;" alt="bank">
+                <div class="tekst">
+                    <h2 class="orange">Zaoszczędź swoje pieniądze. </h2>
+                    <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                </div>
+            </div>
+</section>
         <section class="form">
             <h2>Formularz kontaktowy</h2>
             <form>
-                <input type="text" placeholder="Imię">
-                <input type="number" placeholder="Numer telefonu">
-                <input type="email" placeholder="E-mail">
-                <input type="text" placeholder="Temat">
-                <textarea cols="30" rows="10" placeholder="Twoja Wiadomość"></textarea>
+                <input type="text" placeholder="Imię" name="imie" id="imie">
+                <input type="number" placeholder="Numer telefonu" name="tel" id="tel">
+                <input type="email" placeholder="E-mail" name="email" id="email">
+                <input type="text" placeholder="Temat" name="temat" id="temat">
+                <textarea cols="30" rows="10" placeholder="Twoja Wiadomość" name="wiadomosc" id="wiadomosc"></textarea>
                 <a href=""><button>Wyślij</button></a>
             </form>
         </section>
@@ -47,25 +55,27 @@
         </section>
         <section class="reference">
             <h2 class="orange-center">Nasze referencje</h2>
-            <div class="comment">
-                <div class="block">
-                    <img src="img/mobile/profile1.png" alt="Zdjęcie profilowe">
-                    <div class="tekst">
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
-                        <hr>
-                        <p style="margin-bottom: 17.15px;">LUCAS BARRY</p>
-                        <p>CEO</p>
+            <div class="block-main">
+                <div class="comment">
+                    <div class="block">
+                        <img src="img/mobile/profile1.png" alt="Zdjęcie profilowe">
+                        <div class="tekst">
+                            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                            <hr>
+                            <p style="margin-bottom: 17.15px;">LUCAS BARRY</p>
+                            <p>CEO</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="comment">
-                <div class="block">
-                    <img src="img/mobile/profile2.png" alt="Zdjęcie profilowe">
-                    <div class="tekst">
-                        <p>Nunc vel ullamcorper dui. Mauris aliquet augue et magna ornare, sed varius eros sodales.</p>
-                        <hr>
-                        <p style="margin-bottom: 17.15px;">JODIE RYAN</p>
-                        <p>Menadżer</p>
+                <div class="comment">
+                    <div class="block">
+                        <img src="img/mobile/profile2.png" alt="Zdjęcie profilowe">
+                        <div class="tekst">
+                            <p>Nunc vel ullamcorper dui. Mauris aliquet augue et magna ornare, sed varius eros sodales.</p>
+                            <hr>
+                            <p style="margin-bottom: 17.15px;">JODIE RYAN</p>
+                            <p>Menadżer</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -93,7 +103,7 @@
             </div>
         </section>
         <footer>
-            <div class="box" style="margin-top: 32px;">
+            <div class="box" style="margin-top: 32px;" id="kontakt">
                 <p><b>Kontakt</b></p>
                 <hr>
                 <div class="line">
@@ -109,7 +119,7 @@
                     <p>Polska Cieszyn Ul. Mostowa 32</p>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" id="media">
                 <p><b>Media</b></p>
                 <hr>
                 <div class="line">
@@ -125,7 +135,7 @@
                     <p>Grom Tech</p>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" id="news">
                 <p><b>Newsletter</b></p>
                 <hr>
                 <div class="line">

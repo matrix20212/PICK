@@ -54,21 +54,6 @@ p.small{
     text-align: center;
     color: #FFFFFF;
 }
-.button{
-    background-color: #F29F05;
-    width: 217px;
-    height: 54.31px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 39px;
-    padding-bottom: 14.81px;
-}
-p.button-text{
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-    color: #333333;
-    font-size: 18px;
-}
 .sec2{
     float: left;
     margin-top: 50px;
@@ -83,12 +68,12 @@ h2{
 h2.orange{
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
-    color: #F29F05;
+    color: #F2B705;
 }
 h2.orange-center{
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
-    color: #F29F05;
+    color: #F2B705;
     text-align: center;
 }
 p{
@@ -304,4 +289,214 @@ footer .box .line .send{
     position: absolute;
     margin-left: -55px;
     margin-top: 49px;
+}
+
+@media screen and (min-width: 430px){
+    .main{
+        width: 1440px;
+        height: auto;
+        background-color: aliceblue;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu{
+        width: 649px;
+        height: 96px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 7px 4px rgba(0, 0, 0, 42%);
+        float: right;
+        margin-bottom: 50px;
+        border-radius: 0 0 0 23px;
+    }
+    .img-logo{
+        float: left;
+        margin-top: 9.53px;
+        margin-left: 32px;
+    }
+    .img-menu{
+        position: absolute;
+        float: left;
+        margin-top: 6.42px;
+        margin-left: 36px;
+        visibility: hidden;
+    }
+    .menus{
+        float: left;
+        width: 100%;
+        height: 665px;
+        background-image: url(img/desktop/desktop-tlo.png);
+    }
+    .menus h1{
+        width: 100%;
+        margin-top: 200px;
+    }
+    .menus p{
+        margin-top: 30px;
+    }
+    .sec2{
+        float: left;
+        margin-top: 160px;
+        width: 100%;
+    }
+    .sec2 .object{
+        display: flex;
+        gap: 66px;
+    }
+    .sec2 .object img{
+        width: 641px;
+        height: 442px;
+    }
+    .sec2 .object .tekst p{
+        margin-top: 30px;
+        max-width: 693px !important;
+    }
+    .sec2 .object .tekst h2{
+        margin-top: 150px;
+    }
+    .sec2 .object-reverse{
+        display: flex;
+        gap: 66px;
+        flex-direction: row-reverse;
+        margin-left: 212px;
+        margin-top: 160px;
+    }
+    .sec2 .object-reverse img{
+        width: 469px;
+        height: 376px;
+    }
+    .sec2 .object-reverse .tekst p{
+        margin-top: 30px;
+        max-width: 693px !important;
+    }
+    .sec2 .object-reverse .tekst h2{
+        margin-top: 150px;
+        width: 473px;
+    }
+    section.form{
+        float: left;
+        margin-top: 160px;
+        width: 100%;
+    }
+    section.form form{
+        display: flex;
+        flex-wrap: wrap;
+        width: 902px;
+        margin: auto;
+        display: block;
+    }
+    section.form form #imie{
+        flex: 1;
+        width: 280px;
+        height: 54.31px;
+    }
+    section.form form #tel{
+        flex: 1;
+        width: 280px;
+        height: 54.31px;
+    }
+    section.form form #email{
+        flex: 1;
+        width: 280px;
+        height: 54.31px;
+    }
+    section.form form #temat{
+        flex: 3;
+        width: 902px;
+        height: 54.31px;
+    }
+    section.form form #wiadomosc{
+        flex: 3;
+        width: 902px;
+        height: 302px;
+    }
+    section.form form button{
+        margin-top: 31px;
+    }
+    section.trusted{
+        float: left;
+        margin-top: 50px;
+        display: flex;
+        gap: 79px;
+        place-items: center;
+        margin-left: 37px;
+        width: 100%;
+    }
+    section.reference{
+        float: left;
+        margin-top: 160px;
+        width: 100%;
+    }
+    .comment .block{
+        background-color: #0378A6;
+        border-radius: 27px;
+        margin: auto;
+        display: flex;
+        width: 392px;
+        height: 336.47px;
+        margin-top: 66px;
+    }
+    section.reference .block-main{
+        display: flex;
+        gap: 66px;
+        justify-content: center;
+    }
+    section.reference .orange-center{
+        margin-bottom: 66px;
+        margin-top: 0px;
+    }
+    section.numbers{
+        float: left;
+        margin-top: 160px;
+        width: 100%;
+        background-color: #F29F05;
+        height: 255px;
+        display: flex;
+        gap: 66px;
+        align-items: center;
+        justify-content: center;
+    }
+    .numbers .text {
+        width: 171px;
+        margin: 0px;
+    }
+    footer{
+        float: left;
+        margin-top: 160px;
+        width: 100%;
+        background-color: #3E5902;
+        height: 284px;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        gap: 66px;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .box{
+        margin-left: 0px;
+        width: auto;
+        height: auto;
+    }
+    footer #kontakt{
+        margin-top: 0px !important;
+        width: 339px;
+    }
+    footer #kontakt hr{
+        width: 339px;
+    }
+    footer #media{
+        width: 175px;
+    }
+    footer #media hr{
+        width: 175px;
+    }
+    footer #news{
+        width: 495px;
+    }
+    footer #news hr{
+        width: 495px;
+    }
+    footer #news input{
+        width: 495px;
+    }
 }
