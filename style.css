@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Work+Sans:wght@700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 430px;
+    height: auto;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    width: 100%;
+    height: 101px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 42%);
+    float: left;
+    margin-bottom: 50px;
+}
+.img-logo{
+    float: left;
+    margin-top: 9.53px;
+    margin-left: 32px;
+}
+.img-menu{
+    float: left;
+    margin-top: 31.69px;
+    margin-left: 109.53px;
+}
+.menus{
+    float: left;
+    width: 100%;
+    height: 618px;
+    background-image: url(img/mobile/mobile-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+}
+p.small{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button{
+    background-color: #F29F05;
+    width: 217px;
+    height: 54.31px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 39px;
+    padding-bottom: 14.81px;
+}
+p.button-text{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+}
+.sec2{
+    float: left;
+    margin-top: 50px;
+}
+h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    color: #333333;
+    margin-top: 32px;
+    margin-left: 7px;
+}
+h2.orange{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    color: #F29F05;
+}
+h2.orange-center{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    color: #F29F05;
+    text-align: center;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: #333333;
+    margin-left: 7px;
+    max-width: 382px;
+    margin-top: 20px;
+}
+section.form{
+    float: left;
+    margin-top: 50px;
+}
+section.form h2{
+    text-align: center;
+    margin-bottom: 32px;
+}
+form input{
+    width: 284.52px;
+    height: 54.31px;
+    margin: auto;
+    display: block;
+    border-radius: 39px;
+    border: 1px solid rgba(51, 51, 51, 36%);
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20.69px;
+    
+}
+form input::placeholder{
+    float: left;
+    color: rgba(51, 51, 51, 36%);
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-left: 35.4px;
+    margin-top: 15px;
+}
+textarea{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    width: 284.52px;
+    height: 359px;
+    margin: auto;
+    display: block;
+    border-radius: 39px;
+    border: 1px solid rgba(51, 51, 51, 36%);
+    margin-bottom: 22px;
+}
+textarea::placeholder{
+    float: left;
+    color: rgba(51, 51, 51, 36%);
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-left: 35.4px;
+    margin-top: 26px;
+}
+button{
+    background-color: #F29F05;
+    width: 217px;
+    height: 54.31px;
+    margin: auto;
+    display: block;
+    border-radius: 39px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+    font-size: 18px;
+}
+section.trusted{
+    float: left;
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+    margin-left: 37px;
+}
+section.trusted img{
+    margin-top: 32px;
+}
+section.trusted img.first{
+    margin-top: 0px;
+}
+section.trusted img.last{
+    margin-bottom: 0px;
+}
+section.reference{
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+}
+.comment .block{
+    background-color: #0378A6;
+    border-radius: 27px;
+    margin: auto;
+    display: block;
+    width: 392px;
+    height: 336.47px;
+    margin-top: 92.43px;
+}
+.comment .block img{
+    position: absolute;
+    margin-left: 135.57px;
+    margin-top: -60px;
+}
+.comment .block p{
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 313px;
+    color: rgba(255, 255, 255, 1);
+}
+.comment .block .tekst{
+    width: 100%;
+    float: left;
+    margin-top: 113.52px;
+}
+.comment .block .tekst hr{
+    border: 2px solid #F29F05;
+    width: 251.53px;
+    margin-top: 9.12px;
+    margin-bottom: 26.95px;
+    margin-left: 70.23px;
+    float: left;
+}
+section.numbers{
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #F29F05;
+    height: 757px;
+}
+.numbers .text{
+    width: 171px;
+    margin: auto;
+    display: block;
+}
+p.number{
+    color: #0378A6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 32px;
+    margin-left: 0px;
+}
+p.text{
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0px;
+}
+footer{
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #3E5902;
+    height: 576px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+footer .box{
+    margin-left: 33px;
+    width: auto;
+    height: auto;
+}
+footer .box p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+footer .box hr{
+    border: 3px solid #F29F05;
+    width: 339px;
+    float: left;
+}
+footer .box .line img{
+    float: left;
+    width: 30px;
+    height: auto;
+    margin-right: 21px;
+}
+footer .box .line{
+    width: 100%;
+    float: left;
+    margin-top: 12.3px;
+}
+footer .box .line p{
+    margin-top: 3px;
+}
+footer .box .line input{
+    float: left;
+    width: 339px;
+    height: 61.52px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+footer .box .line input::placeholder{
+    float: left;
+    color: rgba(255, 255, 255, 0.36);
+    margin-top: 16.99px;
+    margin-left: 26.44px;
+}
+footer .box .line .send{
+    position: absolute;
+    margin-left: -55px;
+    margin-top: 49px;
+}
