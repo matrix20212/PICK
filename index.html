@@ -7,12 +7,31 @@
     <title>Grom Tech</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main">
         <section class="menus">
             <div class="menu">
                 <img src="img/mobile/LOGO.png" alt="LOGO Grom Tech" class="img-logo">
-                <a href=""><img src="img/mobile/icons/menu.png" alt="menu button" class="img-menu"></a>
+                <a onclick="document.getElementById('menu').style.visibility = 'visible'"><img src="img/mobile/icons/menu.png" alt="menu button" class="img-menu"></a>
+                <div class="desktop-menu-buttons">
+                    <a href=""><p>Home</p></a>
+                    <a href=""><p>Sklep</p></a>
+                    <a href=""><p>Blog</p></a>
+                    <a href=""><p>O nas</p></a>
+                    <a href=""><p>Kontakt</p></a>
+                </div>
+                <div class="mobile-menu-slider" id="menu">
+                    <img src="img/mobile/LOGO.png" alt="LOGO Grom Tech" class="logo">
+                    <a onclick="document.getElementById('menu').style.visibility = 'hidden'"><img src="img/mobile/icons/close.png" alt="Zamknij" class="close"></a>
+                    <div class="menu-buttons">
+                        <a href=""><p>Home</p></a>
+                        <a href=""><p>Sklep</p></a>
+                        <a href=""><p>Blog</p></a>
+                        <a href=""><p>O nas</p></a>
+                        <a href=""><p>Kontakt</p></a>
+                    </div>
+                </div>
             </div>
             <h1>TWOJA CZYSTA ENERGIA</h1>
             <p class="small" style="margin-top: 32px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
@@ -39,9 +58,11 @@
         <section class="form">
             <h2>Formularz kontaktowy</h2>
             <form>
-                <input type="text" placeholder="Imię" name="imie" id="imie">
-                <input type="number" placeholder="Numer telefonu" name="tel" id="tel">
-                <input type="email" placeholder="E-mail" name="email" id="email">
+                <div class="line">
+                    <input type="text" placeholder="Imię" name="imie" id="imie">
+                    <input type="number" placeholder="Numer telefonu" name="tel" id="tel">
+                    <input type="email" placeholder="E-mail" name="email" id="email">
+                </div>
                 <input type="text" placeholder="Temat" name="temat" id="temat">
                 <textarea cols="30" rows="10" placeholder="Twoja Wiadomość" name="wiadomosc" id="wiadomosc"></textarea>
                 <a href=""><button>Wyślij</button></a>

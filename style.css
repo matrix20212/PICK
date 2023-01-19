@@ -27,11 +27,47 @@ a{
     float: left;
     margin-top: 9.53px;
     margin-left: 32px;
+    margin-right: 21px;
 }
 .img-menu{
     float: left;
     margin-top: 31.69px;
     margin-left: 109.53px;
+}
+.desktop-menu-buttons{
+    visibility: hidden;
+}
+.mobile-menu-slider{
+    margin-left: 76px;
+    margin-top: -271px;
+    position: absolute;
+    width: 354px;
+    height: 358px;
+    border-radius: 23px 0px 0px 23px;
+    background-color: #FFFFFF;
+    visibility: hidden;
+}
+.mobile-menu-slider .logo{
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.mobile-menu-slider .close{
+    float: right;
+    margin-top: 35px;
+    margin-right: 32px;
+}
+.menu-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-buttons p{
+    text-align: center; 
+    color: #F29F05;
 }
 .menus{
     float: left;
@@ -320,6 +356,22 @@ footer .box .line .send{
         margin-left: 36px;
         visibility: hidden;
     }
+    .mobile-menu-slider{
+        visibility: hidden !important;
+    }
+    .desktop-menu-buttons{
+        visibility: visible !important;
+        display: flex;
+        gap: 21px;
+        margin-top: 13px;
+    }
+    .desktop-menu-buttons a :hover{
+        color: #F29F05;
+    }
+    button:hover{
+        background-color: #F2B705;
+        color: #FFFFFF;
+    }
     .menus{
         float: left;
         width: 100%;
@@ -332,6 +384,9 @@ footer .box .line .send{
     }
     .menus p{
         margin-top: 30px;
+        max-width: 681px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .sec2{
         float: left;
@@ -412,13 +467,17 @@ footer .box .line .send{
     section.form form button{
         margin-top: 31px;
     }
+    section.form .line{
+        display: flex;
+        gap: 20px;
+    }
     section.trusted{
         float: left;
         margin-top: 50px;
         display: flex;
         gap: 79px;
-        place-items: center;
-        margin-left: 37px;
+        justify-content: center;
+        margin-left: 0px;
         width: 100%;
     }
     section.reference{
@@ -499,4 +558,5 @@ footer .box .line .send{
     footer #news input{
         width: 495px;
     }
+
 }
